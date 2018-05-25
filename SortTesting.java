@@ -15,7 +15,9 @@ public class SortTesting {
         
         //Sort the array
         //int[] outputArray = BubbleSort.bubbleSort(testArray);
-        int[] outputArray = InsertionSort.insertionSort(testArray);
+        //int[] outputArray = InsertionSort.insertionSort(testArray);
+        //int[] outputArray = SelectionSort.selectionSort(testArray);
+        int[] outputArray = MergeSort.mergeSort(testArray, 0, testArray.length);
         
         //Print out the result
         for(int i = 0; i < outputArray.length; i++) {
